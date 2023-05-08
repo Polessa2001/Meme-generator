@@ -4,9 +4,8 @@ import './Header.css'
 export default function Header() {
   return (
     <header>
-      <img src= "./images/troll-face.png" className= "header--image"/>
-      <h2 className="header--title">Meme Generator</h2>
-      <h4 className="header--project">React Course - Project 3</h4>
+      <img src= "src/components/Trollface.svg" className= "header--image"/>
+      <h4 className="header--title">Meme Generator</h4>
     </header>
   )
 }

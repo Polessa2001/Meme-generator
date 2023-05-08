@@ -1,14 +1,6 @@
 import React from "react"
 import './Meme.css'
 export default function Meme() {
-    /**
-     * Challenge:
-     * 1. Set up the text inputs to save to
-     *    the `topText` and `bottomText` state variables.
-     * 2. Replace the hard-coded text on the image with
-     *    the text being saved to state.
-     */
-
     const [meme, setMeme] = React.useState({
         topText: "",
         bottomText: "",
@@ -38,7 +30,6 @@ export default function Meme() {
             [name]: value
         }))
     }
-
     return (
         <main>
             <div className="form">

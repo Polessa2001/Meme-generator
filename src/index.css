@@ -1,0 +1,27 @@
+@media (min-width: 576px) {
+  .container {
+    color: green;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    color: rgb(10, 55, 10);
+  }
+}
+@media (min-width: 992px) {
+  .container {
+   color: rgb(128, 0, 23);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    color: rgb(0, 36, 128);
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    color: rgb(217, 213, 0);
+  }
+}

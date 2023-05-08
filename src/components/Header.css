@@ -1,10 +1,14 @@
 header {
   display: flex;
+  width: 100%;
   align-items: center;
   height: 65px;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-  color: white;
+  color: #1E1E1E;
   padding: 20px;
+  font-family: 'Foldit', cursive;
+  font-family: 'Sigmar', cursive;
+  box-shadow: 2px 2px 4px #666565;
 }
 .header--image {
   height: 100%;
@@ -14,4 +18,5 @@ header {
 .header--title {
   font-size: 20px;
   margin-right: auto;
+  margin-bottom: 0;
 }

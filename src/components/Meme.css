@@ -1,3 +1,6 @@
+body {
+  background-color: #1E1E1E;
+}
 .meme {
   display: flex;
   flex-direction: column;
@@ -12,6 +15,7 @@
   object-fit:cover;
   border-radius: 3px;
   margin: 40px;
+  border: 3px solid white;
 }
 
 .meme--text {
@@ -61,9 +65,15 @@
   height: 50px;
   margin: auto;
   overflow: hidden;
+  font-family: 'Foldit', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Sigmar', cursive;
 }
 .form--input {
   width: 45%;
   height: 30px;
   margin:20px auto;
+  font-family: 'Foldit', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Sigmar', cursive;
 }
