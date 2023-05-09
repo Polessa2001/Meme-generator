@@ -1,6 +1,18 @@
 body {
   background-color: #1E1E1E;
 }
+@media (max-width: 575.98px)
+{.meme--image {
+    display: block;
+    width: 70%;
+    height: 50%;
+    object-fit:cover;
+    border-radius: 3px;
+    margin-bottom:20px;
+    border: 3px solid white;
+  }
+}
+
 .meme {
   display: flex;
   flex-direction: column;
@@ -9,12 +21,14 @@ body {
   position: relative;
 }
 .meme--image {
+  display: block;
+  width: 70%;
+  height: 50%;
   max-width: 100%;
-  min-width: 500px;
+  min-width: 70vw;
   min-height: 200px;
   object-fit:cover;
   border-radius: 3px;
-  margin: 40px;
   border: 3px solid white;
 }
 
@@ -24,10 +38,9 @@ body {
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
-  margin: 15px 0;
   padding: 0 5px;
   font-family: impact, sans-serif;
-  font-size: 2em;
+  font-size:  3.2vw;
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
@@ -59,6 +72,7 @@ body {
   padding: 40px 80px;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 .form--button {
   width: 95%;
@@ -68,7 +82,15 @@ body {
   font-family: 'Foldit', cursive;
   font-family: 'Oswald', sans-serif;
   font-family: 'Sigmar', cursive;
+  border-radius: 10px;
+  border: 3px solid #672280;
+  transition: 1s;
 }
+
+.form--button:hover {
+  box-shadow:2px 2px 4px #8e8b8b;
+}
+
 .form--input {
   width: 45%;
   height: 30px;
@@ -76,4 +98,6 @@ body {
   font-family: 'Foldit', cursive;
   font-family: 'Oswald', sans-serif;
   font-family: 'Sigmar', cursive;
+  border-radius: 5px;
+  border: 3px solid #672280;
 }

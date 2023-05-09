@@ -9,6 +9,7 @@ header {
   font-family: 'Foldit', cursive;
   font-family: 'Sigmar', cursive;
   box-shadow: 2px 2px 4px #666565;
+  min-width:150px;
 }
 .header--image {
   height: 100%;
@@ -16,7 +17,7 @@ header {
 }
 
 .header--title {
-  font-size: 20px;
+  font-size: 1.6vw;
   margin-right: auto;
   margin-bottom: 0;
 }
